@@ -7,6 +7,8 @@ $(document).ready(() => {
         reader.onload = function(){   // cuando reader ejecute el fichero lanza la funcion
 
             $("#imagen").attr("src",reader.result);
+
+            
         }
     });
 });

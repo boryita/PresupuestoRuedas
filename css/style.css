@@ -1,0 +1,39 @@
+*{
+    background-color: lightblue;
+}
+#foto{
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+#LabelFoto{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:url(../img/FotoCamara.png) no-repeat center;
+    top: 0;
+}
+#file{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.ocultar {
+
+    display: none;
+}
+
+body{
+
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+

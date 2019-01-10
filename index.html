@@ -7,11 +7,32 @@
     <title>PRESUPUESTO RUEDA</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <img id="imagen"> 
-    <input type="file" id="file" accept="image/*" capture>
-    <input type="text" id="email" placeholder="Introduce tu email">
-    <input type="button" id="btn" value="Enviar">
+    
+    
+    <div class="container"> 
+        
+        <h1> TUS FOTOS </h1>
+        
+        <img id="imagen">
+        
+        <form action="" id="form" method="post">
+    
+            <div id="foto">
+                <label id="LabelFoto">
+                    <img width="200px" height="200px" src="img/FotoCamara.png">
+                </label>
+                <input type="file" id="file" accept="image/*" capture>
+            </div>
+    
+            <input class="ocultar" type="text" id="name" name="nombre" placeholder="Introduce tu nombre">
+            <input class="ocultar" type="text" id="email" placeholder="Introduce tu email">
+            <input class="ocultar" type="submit" value="Enviar">
+    
+        </form>
+
+    </div>
 </body>
 </html>
